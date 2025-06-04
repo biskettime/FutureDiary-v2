@@ -20,6 +20,7 @@ import ViewEntryScreen from './src/screens/ViewEntryScreen';
 import SearchScreen from './src/screens/SearchScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
 import MyDiaryScreen from './src/screens/MyDiaryScreen';
+import LoginScreen from './src/screens/LoginScreen';
 
 const Stack = createStackNavigator<RootStackParamList>();
 const Tab = createBottomTabNavigator<TabParamList>();
@@ -126,6 +127,14 @@ const App: React.FC = () => {
             component={ViewEntryScreen}
             options={{
               headerTitle: '일기 보기',
+            }}
+          />
+          <Stack.Screen
+            name="Login"
+            component={LoginScreen}
+            options={{
+              presentation: 'modal',
+              headerTitle: '로그인',
             }}
           />
         </Stack.Navigator>
