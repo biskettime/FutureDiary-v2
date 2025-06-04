@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- White butterfly centered, matching the provided image -->
+    <group android:translateX="54" android:translateY="54">
+        
+        <!-- Butterfly body -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-3,-24
+                C-4,-24 -5,-23 -5,-22
+                L-5,30
+                C-5,31 -4,32 -3,32
+                L3,32
+                C4,32 5,31 5,30
+                L5,-22
+                C5,-23 4,-24 3,-24
+                L-3,-24Z"/>
+        
+        <!-- Left upper wing -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-5,-8
+                C-5,-8 -30,-22 -40,-18
+                C-50,-14 -52,-6 -48,2
+                C-44,10 -30,12 -20,8
+                C-10,4 -5,0 -5,-8Z"/>
+        
+        <!-- Left lower wing -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-5,8
+                C-5,8 -25,12 -32,18
+                C-39,24 -38,32 -32,36
+                C-26,40 -18,38 -12,32
+                C-6,26 -5,16 -5,8Z"/>
+        
+        <!-- Right upper wing -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M5,-8
+                C5,-8 30,-22 40,-18
+                C50,-14 52,-6 48,2
+                C44,10 30,12 20,8
+                C10,4 5,0 5,-8Z"/>
+        
+        <!-- Right lower wing -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M5,8
+                C5,8 25,12 32,18
+                C39,24 38,32 32,36
+                C26,40 18,38 12,32
+                C6,26 5,16 5,8Z"/>
+        
+        <!-- Antennae -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-2,-28
+                C-2,-30 0,-30 0,-28
+                L2,-26
+                C3,-25 2,-24 1,-25
+                L-1,-27
+                L-3,-25
+                C-4,-24 -5,-25 -4,-26
+                L-2,-28Z"/>
+    </group>
+</vector> 
